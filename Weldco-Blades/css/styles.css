@@ -1,0 +1,75 @@
+/* WeldcoBlades Logo Styles */
+.logo-svg, .logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  display: inline-block;
+  background: #000;
+  border-radius: 8px;
+}
+
+/* Product Search Bar */
+#product-search {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+#product-search:focus {
+  border: 1.5px solid #D74827;
+  outline: none;
+}
+
+/* No Products Message */
+#no-products-message {
+  color: #D74827;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  text-align: center;
+}
+
+/* Product Card Image */
+.product-card .logo {
+  margin-bottom: 1.5rem;
+  background: #000;
+  border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 900px) {
+  .logo-svg, .logo {
+    width: 56px;
+    height: 56px;
+  }
+  #product-search {
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+  }
+}
+
+/* General Button Consistency */
+.btn-primary, .btn-secondary {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: opacity 0.2s, background 0.2s;
+}
+
+/* Section Titles and Subtitles */
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.section-subtitle {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 2rem;
+  text-align: center;
+}
