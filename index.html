@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDC Core Barrels for Dry-Cutting & Utility Locating | Weldco Blades</title>
+  <meta name="description" content="Cut 4x more cores with Weldco's revolutionary PDC core barrels. Built for dry-cutting and superior longevity. Request a quote today for the best utility locating solution.">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #D74827;
+      --black: #000;
+      --white: #fff;
+      --gray: #555;
+    }
+    body { font-family: 'Lato', sans-serif; margin: 0; background: #fff; color: var(--black); }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 1.5rem; }
+    .btn-primary { background: var(--primary); color: #fff; border: none; border-radius: 6px; padding: 0.75rem 2rem; font-weight: bold; cursor: pointer; transition: opacity 0.2s; }
+    .btn-primary:hover { opacity: 0.9; }
+    .btn-secondary { background: #555; color: #fff; border: none; border-radius: 6px; padding: 0.75rem 2rem; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+    .btn-secondary:hover { background: #333; }
+    .logo-svg { width: 48px; height: 48px; }
+    .section {
+      padding: 5rem 0;
+    }
+    .section.bg-dark { 
+      background: #000; 
+      color: #fff; 
+    }
+    .section.bg-light { 
+      background: #f7f7f7; 
+    }
+    .section-title { 
+      font-size: 2.5rem; 
+      font-weight: bold; 
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .section-subtitle { 
+      font-size: 1.25rem; 
+      color: var(--gray); 
+      margin-bottom: 3rem;
+      text-align: center;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .hero-title { font-size: 2.5rem; font-weight: bold; color: var(--primary); }
+    .hero-subtitle { font-size: 2rem; font-weight: bold; color: #fff; }
+    .performance-grid, .products-grid, .apps-grid, .footer-grid { 
+      display: grid; 
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    .performance-card { 
+      background: #fff; 
+      border-radius: 12px; 
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08); 
+      padding: 2rem; 
+      text-align: center;
+      transition: transform 0.3s ease;
+      border-top: 4px solid var(--primary);
+    }
+    .performance-card:hover {
+      transform: translateY(-5px);
+    }
+    .performance-card .metric {
+      font-size: 3rem;
+      font-weight: bold;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+      line-height: 1;
+    }
+    .performance-card .title {
+      font-size: 1.2rem;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: var(--black);
+    }
+    .performance-card .subtitle {
+      color: var(--gray);
+      font-size: 0.95rem;
+    }
+    .feature-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+    .feature-card .icon {
+      color: var(--primary);
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .feature-card h3 {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: var(--black);
+    }
+    .feature-card p {
+      color: var(--gray);
+      line-height: 1.6;
+    }
+    .product-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+    }
+    .product-card .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 1.5rem;
+    }
+    .product-card h3 {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: var(--black);
+    }
+    .product-card p {
+      color: var(--gray);
+      line-height: 1.6;
+      margin-bottom: 1.5rem;
+    }
+    .footer {
+      background: #000;
+      color: #fff;
+      padding: 2.5rem 0;
+    }
+    .footer a { color: #fff; text-decoration: underline; }
+    .footer .footer-col { background: none; box-shadow: none; padding: 0; }
+    .footer .footer-col h4 { color: var(--primary); margin-bottom: 1rem; }
+    .footer .footer-col ul { list-style: none; padding: 0; }
+    .footer .footer-col ul li { margin-bottom: 0.5rem; }
+    .footer .footer-bottom {
+      border-top: 1px solid #222;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+    .footer-bottom a {
+      color: var(--primary);
+    }
+    .powered-by {
+      font-size: 0.85rem;
+      color: #777;
+    }
+    .powered-by a {
+      font-weight: bold;
+      color: #888;
+    }
+    .footer-bottom-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 0.5rem;
+    }
+    .logo {
+      width: 60px;
+      height: 60px;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      vertical-align: middle;
+      background: #000;
+    }
+    .logo:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    @media (max-width: 900px) {
+      .performance-grid, .products-grid, .apps-grid, .footer-grid { flex-direction: column; gap: 1.5rem; }
+      .section { padding: 2rem 0; }
+    }
+    .app-card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      padding: 2rem;
+      transition: transform 0.3s ease;
+    }
+    .app-card:hover {
+      transform: translateY(-5px);
+    }
+    .app-card h3 {
+      color: var(--primary);
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+    .app-card ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .app-card ul li {
+      color: var(--gray);
+      margin-bottom: 0.8rem;
+      padding-left: 1.5rem;
+      position: relative;
+      line-height: 1.6;
+    }
+    .app-card ul li:before {
+      content: "•";
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+    }
+    .testimonial {
+      background: var(--primary);
+      color: #fff;
+      padding: 4rem 0;
+      text-align: center;
+    }
+    .testimonial .quote {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      line-height: 1;
+    }
+    .testimonial blockquote {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-bottom: 1.5rem;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+    .testimonial .author {
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .cta-section {
+      background: #000;
+      color: #fff;
+      text-align: center;
+      padding: 4rem 0;
+    }
+    .cta-section .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 2rem;
+    }
+    .cta-section .section-title {
+      color: #fff;
+    }
+    .cta-section .section-subtitle {
+      color: #aaa;
+    }
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .testimonial-carousel {
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+      min-height: 220px;
+    }
+    .testimonial-slide {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      animation: fadeIn 0.6s;
+    }
+    .testimonial-slide.active {
+      display: flex;
+    }
+    .testimonial-logo {
+      margin: 1rem 0 0.5rem 0;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    .header {
+      background: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+    .header-container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 0;
+    }
+    .main-nav a {
+      color: var(--black);
+      text-decoration: none;
+      font-weight: 600;
+      padding: 0.5rem 0;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s;
+    }
+    .main-nav a:hover {
+      color: var(--primary);
+      border-bottom-color: var(--primary);
+    }
+    .hero-image {
+      flex: 1;
+      min-width: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    }
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .hero-text-content {
+      flex: 2;
+      min-width: 300px;
+      padding-right: 3rem;
+    }
+    .hero-branding {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.5rem;
+    }
+    .hero-branding .logo {
+      margin-right: 1.2rem;
+    }
+    .hero-tagline {
+      font-size: 2.5rem;
+      color: #fff;
+      margin-bottom: 1rem;
+      font-weight: bold;
+    }
+    .hero-tagline span {
+      color: var(--primary);
+    }
+    .hero-description {
+      font-size: 1.2rem;
+      color: #fff;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      line-height: 1.6;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .hero-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+    .rebuild-card {
+      background: var(--primary);
+      color: #fff;
+      border-radius: 12px;
+      padding: 2rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    .rebuild-card h3 {
+      font-size: 1.3rem;
+      font-weight: bold;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+    .rebuild-card ul {
+      list-style: none;
+      padding: 0;
+    }
+    .rebuild-card ul li {
+      position: relative;
+      padding-left: 1.5rem;
+      margin-bottom: 0.8rem;
+    }
+    .rebuild-card ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    .contact-form {
+      background: #f7f7f7;
+      border-radius: 12px;
+      padding: 2rem;
+    }
+    .contact-form h4 {
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+    .form-input {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    /* Consistent Logo Spacing */
+    .product-card .logo,
+    .cta-section .logo {
+      margin-bottom: 1.5rem;
+    }
+    .header .logo,
+    .footer .logo {
+      margin-right: 1.2rem;
+    }
+    .footer-col-main {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+    .footer-col-main .logo {
+      margin-right: 1.2rem;
+    }
+    .footer-col-main .title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: var(--primary);
+    }
+    .footer-col-main .subtitle {
+      font-size: 0.95rem;
+      color: #aaa;
+    }
+    .hero-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      gap: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div style="display:flex; align-items:center;">
+        <a href="#home">
+          <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="WeldcoBlades Logo" class="logo" />
+        </a>
+        <div>
+          <div class="hero-title">CoreBarrels.com</div>
+          <div style="font-size:1rem; color:#888;">Powered by Weldco Blades</div>
+        </div>
+      </div>
+      <nav class="main-nav" style="display:flex; gap:2rem;">
+        <a href="#home">Home</a>
+        <a href="#products">Core Barrels</a>
+        <a href="#performance">Performance</a>
+        <a href="#rebuild">Rebuild Program</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn-primary" style="margin-left:2rem;">Request Quote</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="section bg-dark" style="padding-bottom:2rem;">
+    <div class="container hero-container">
+      <div class="hero-text-content">
+        <div class="hero-branding">
+          <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="Weldco Blades Diamond Logo" class="logo" />
+          <div>
+            <div class="hero-title">WELDCO BLADES</div>
+            <div class="hero-subtitle">CORE BARRELS</div>
+          </div>
+        </div>
+        <h1 class="hero-tagline">Cut <span>4X</span> More Cores</h1>
+        <p class="hero-description">PDC Core Barrels Built Tough, With Dry-Cutting Capability & Rebuildable Design. Revolutionary utility locating solutions for all your infrastructure needs.</p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Request a Quote</a>
+          <a href="#products" class="btn-secondary">View Products</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/images/Core Barrel 484547435_561982226906836_787926576863921775_n.jpg" alt="Weldco PDC Core Barrel" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Performance Stats -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="section-title" style="margin-bottom: 3rem;">Industry-Leading Performance Metrics</h2>
+      <div class="performance-grid">
+        <div class="performance-card">
+          <div class="metric">4X</div>
+          <div class="title">More Cores</div>
+          <div class="subtitle">vs Industry Standard</div>
+        </div>
+        <div class="performance-card">
+          <div class="metric">600-800</div>
+          <div class="title">Cores Per Barrel</div>
+          <div class="subtitle">Industry Leading</div>
+        </div>
+        <div class="performance-card">
+          <div class="metric">10</div>
+          <div class="title">Day Turnaround</div>
+          <div class="subtitle">Rebuild Service</div>
+        </div>
+        <div class="performance-card">
+          <div class="metric">100%</div>
+          <div class="title">Dry-Cutting</div>
+          <div class="subtitle">No Water Needed</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Unmatched Performance -->
+  <section id="performance" class="section">
+    <div class="container">
+      <h2 class="section-title">Unmatched Core Barrel Performance</h2>
+      <div class="section-subtitle">Revolutionary PDC technology delivering superior results in any environment</div>
+      <div class="performance-grid">
+        <div class="feature-card">
+          <div class="icon">✓</div>
+          <h3>Superior Longevity</h3>
+          <p>Our PDC core barrels consistently outperform competitors by 4X, delivering 600-800 cores per barrel compared to the industry standard of 75-200 cores, with multiple rebuilds possible per barrel.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✓</div>
+          <h3>Dry-Cutting Capability</h3>
+          <p>Unlike competitors that require water cooling, our proprietary PDC cutting design allows for dry operation - eliminating water supply issues, freeze concerns, and improving winter operations.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✓</div>
+          <h3>Proven Track Record</h3>
+          <p>Field-tested and validated by industry leaders like EasTseW and Sorensen Companies (SCI) across challenging environments, including multi-layer asphalt with high rubber content.</p>
+        </div>
+        <div class="feature-card">
+          <div class="icon">✓</div>
+          <h3>Cost-Effective</h3>
+          <p>While the initial investment is higher, the extended barrel life and rebuild capability delivers substantial long-term cost savings and extends your construction window.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonial -->
+  <section class="testimonial">
+    <div class="container">
+      <div id="testimonial-carousel" class="testimonial-carousel">
+        <div class="testimonial-slide active">
+          <div class="quote">&#10077;</div>
+          <blockquote>"Weldco's PDC core barrels have revolutionized our utility locating process, delivering consistent performance even in challenging multi-layer asphalt conditions."</blockquote>
+          <div class="testimonial-logo"><img src="assets/weldco/images/EastWest screenshot. webp" alt="EastWest Logo" style="height:48px; background:#fff; border-radius:6px; padding:4px;" /></div>
+          <div class="author">- EasTseW, Industry Leader</div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="quote">&#10077;</div>
+          <blockquote>"SCI has seen a dramatic reduction in downtime and cost since switching to Weldco Blades. The rebuild program is a game changer!"</blockquote>
+          <div class="testimonial-logo"><img src="assets/weldco/images/sci_logo_inverted_rgb@150ppi.png" alt="SCI Logo" style="height:48px; background:#000; border-radius:6px; padding:4px;" /></div>
+          <div class="author">- Sorensen Companies (SCI)</div>
+        </div>
+      </div>
+      <div class="testimonial-controls" style="margin-top:1.5rem; text-align:center;">
+        <button class="testimonial-prev btn-secondary" aria-label="Previous testimonial" style="margin-right:1rem;">&#8592;</button>
+        <button class="testimonial-next btn-secondary" aria-label="Next testimonial">&#8594;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products" class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Revolutionary Core Barrel Technology</h2>
+      <div class="section-subtitle">Our PDC core barrels represent the pinnacle of utility locating technology</div>
+      <div style="max-width:400px; margin:0 auto 2rem auto;">
+        <input id="product-search" type="text" placeholder="Search products..." style="width:100%; padding:0.75rem 1rem; border-radius:8px; border:1px solid #ccc; font-size:1.1rem;" />
+      </div>
+      <div class="products-grid" id="products-list">
+        <div class="product-card">
+          <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="Weldco 2-inch PDC Core Barrel" class="logo" />
+          <h3>2" PDC Core Barrel</h3>
+          <p>Compact design perfect for precision utility locating in tight spaces with maximum efficiency.</p>
+          <a href="#contact" class="btn-primary">View Specifications</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="Weldco 4-inch PDC Core Barrel" class="logo" />
+          <h3>4" PDC Core Barrel</h3>
+          <p>Our flagship core barrel with unmatched longevity of 600-800 cores and dry-cutting capability.</p>
+          <a href="#contact" class="btn-primary">View Specifications</a>
+        </div>
+        <div class="product-card">
+          <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="Weldco 6-inch PDC Core Barrel" class="logo" />
+          <h3>6" PDC Core Barrel</h3>
+          <p>Heavy-duty performance for large-scale utility projects with superior cutting efficiency.</p>
+          <a href="#contact" class="btn-primary">View Specifications</a>
+        </div>
+      </div>
+      <div id="no-products-message" style="display:none; text-align:center; color:var(--primary); font-size:1.2rem; margin-top:2rem;">Contact the office with requests for products not found.</div>
+      <div style="text-align:center; margin-top:3rem;">
+        <p style="font-size:1.1rem; font-style:italic; margin-bottom:1.5rem; color:var(--gray);">Custom sizes available upon request</p>
+        <a href="#contact" class="btn-primary">Request Custom Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rebuild Program -->
+  <section id="rebuild" class="section">
+    <div class="container">
+      <h2 class="section-title">Comprehensive Rebuild Program</h2>
+      <div class="section-subtitle">Extend core barrel life with our professional rebuilding services</div>
+      <div class="performance-grid">
+        <div class="rebuild-card">
+          <h3>Barrel Rebuilding Service</h3>
+          <ul>
+            <li>Extend barrel life with multiple rebuilds at fraction of replacement cost</li>
+            <li>Professional restoration maintains optimal performance</li>
+            <li>Quick 10-day turnaround from shipping to return</li>
+          </ul>
+        </div>
+        <div class="rebuild-card">
+          <h3>Preventative Care</h3>
+          <ul>
+            <li>Expert guidance on barrel usage and maintenance</li>
+            <li>Regular performance monitoring and optimization</li>
+            <li>Strategic core count tracking to maximize rebuild potential</li>
+          </ul>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:2rem;">
+        <a href="#contact" class="btn-primary">Schedule a Rebuild</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Industry Applications -->
+  <section class="section bg-light">
+    <div class="container">
+      <h2 class="section-title">Industry Applications</h2>
+      <div class="section-subtitle">Universal utility solution for all infrastructure contractors</div>
+      <div class="apps-grid">
+        <div class="app-card">
+          <h3>Universal Utility Solution</h3>
+          <ul>
+            <li>Essential for all infrastructure contractors - boring, drilling, trenching</li>
+            <li>Required by law for locating existing utilities before construction</li>
+            <li>Compatible with all underground utility work - water, gas, electric, communications</li>
+          </ul>
+        </div>
+        <div class="app-card">
+          <h3>Environment-Specific Adaptations</h3>
+          <ul>
+            <li>Tailored barrel specifications for different asphalt conditions</li>
+            <li>Modified designs for specialized applications</li>
+            <li>Performance-optimized solutions for specific project demands</li>
+          </ul>
+        </div>
+        <div class="app-card">
+          <h3>Premium Customer Service</h3>
+          <ul>
+            <li>Same-day response to all inquiries and concerns</li>
+            <li>Direct access to barrel designers for technical consultation</li>
+            <li>Immediate problem-solving support to minimize downtime</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="Weldco Blades Diamond Logo" class="logo" />
+      <h2 class="section-title">Ready to Cut 4X More Cores?</h2>
+      <div class="section-subtitle">Experience the revolution in utility locating with Weldco's PDC core barrels. Join industry leaders who trust our proven technology.</div>
+      <div class="cta-buttons">
+        <a href="#contact" class="btn-primary">Request a Quote</a>
+        <a href="tel:4356808122" class="btn-secondary">Call (435) 680-8122</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container" style="max-width:900px;">
+      <h2 class="section-title">Contact Weldco Blades</h2>
+      <div class="section-subtitle">Get in touch with the PDC core barrel experts</div>
+      <div style="display:flex; flex-wrap:wrap; gap:2rem;">
+        <div style="flex:1; min-width:260px;">
+          <h3 style="color:var(--primary); font-size:1.2rem; font-weight:bold;">Weldco Blades Headquarters</h3>
+          <div style="margin-bottom:1rem;">
+            <strong>Address:</strong><br>
+            1130 East Highway 40<br>
+            Vernal, UT 84078<br>
+            <a href="https://www.google.com/maps/search/1130+East+Highway+40+Vernal+UT" target="_blank" style="color:var(--primary); text-decoration:underline;">Weldco Blades Directions</a>
+          </div>
+          <div style="margin-bottom:1rem;"><strong>Call:</strong> <a href="tel:4356808122" style="color:var(--primary);">(435) 680-8122</a></div>
+          <div style="margin-bottom:1rem;"><strong>Email:</strong> <a href="mailto:sales@weldcoblades.com" style="color:var(--primary);">sales@weldcoblades.com</a></div>
+          <div style="margin-bottom:1rem;"><strong>Website:</strong> <a href="https://www.weldcoblades.com" target="_blank" style="color:var(--primary);">weldcoblades.com</a></div>
+        </div>
+        <div style="flex:1; min-width:260px;">
+          <div class="contact-form">
+            <h4>Request Core Barrel Information</h4>
+            <form>
+              <input type="text" placeholder="Your name*" required class="form-input" />
+              <input type="text" placeholder="Your company*" required class="form-input" />
+              <input type="email" placeholder="Your email*" required class="form-input" />
+              <input type="tel" placeholder="Your phone*" required class="form-input" />
+              <input type="text" placeholder="Core Barrel Size Interest (2&quot;, 4&quot;, 6&quot;, or Custom)" class="form-input" />
+              <textarea placeholder="Your message about PDC core barrel needs" class="form-input" style="min-height:80px;"></textarea>
+              <button type="submit" class="btn-primary" style="width:100%;">Submit Request</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="footer-col-main">
+          <a href="#home">
+            <img src="assets/images/WeldcoBlades Logo Frame 39.png" alt="WeldcoBlades Logo" class="logo" />
+          </a>
+          <div>
+            <div class="title">CoreBarrels.com</div>
+            <div class="subtitle">Powered by Weldco Blades</div>
+          </div>
+        </div>
+        <p style="color:#aaa;">Revolutionary PDC core barrels that cut 4X more cores with dry-cutting capability and rebuildable design.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Core Barrels</h4>
+        <ul>
+          <li><a href="#">2" PDC Core Barrel</a></li>
+          <li><a href="#">4" PDC Core Barrel</a></li>
+          <li><a href="#">6" PDC Core Barrel</a></li>
+          <li><a href="#">Custom Sizes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">Rebuild Program</a></li>
+          <li><a href="#">Technical Support</a></li>
+          <li><a href="#">Performance Monitoring</a></li>
+          <li><a href="#">Maintenance</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Connect With Us</h4>
+        <ul>
+          <li><a href="https://www.facebook.com/people/Weldco-Blades/100092851911734/" target="_blank">Facebook</a></li>
+          <li><a href="https://www.instagram.com/weldcoblades" target="_blank">Instagram</a></li>
+          <li><a href="https://www.youtube.com/channel/UCHEBiDGNqyEJVJRqI7FeI5w" target="_blank">YouTube</a></li>
+          <li><a href="https://www.linkedin.com/company/103614972/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          © 2025 CoreBarrels.com - Powered by Weldco Blades. All rights reserved.
+          <span class="powered-by">| Website by <a href="https://devpipeline.com" target="_blank">DevPipeline</a></span>
+        </div>
+        <div>Contact: (435) 680-8122 | sales@weldcoblades.com &nbsp;|&nbsp; 1130 East Highway 40, Vernal, UT 84078</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Universal product search functionality
+    const searchInput = document.getElementById('product-search');
+    const productsList = document.getElementById('products-list');
+    const noProductsMsg = document.getElementById('no-products-message');
+    if (searchInput) {
+      searchInput.addEventListener('input', function() {
+        const query = this.value.toLowerCase();
+        let found = false;
+        productsList.querySelectorAll('.product-card').forEach(card => {
+          const text = card.textContent.toLowerCase();
+          if (text.includes(query)) {
+            card.style.display = '';
+            found = true;
+          } else {
+            card.style.display = 'none';
+          }
+        });
+        noProductsMsg.style.display = found ? 'none' : '';
+      });
+    }
+
+    // Testimonial Carousel Logic
+    const slides = document.querySelectorAll('.testimonial-slide');
+    const prevBtn = document.querySelector('.testimonial-prev');
+    const nextBtn = document.querySelector('.testimonial-next');
+    let currentSlide = 0;
+    function showSlide(idx) {
+      slides.forEach((slide, i) => {
+        slide.classList.toggle('active', i === idx);
+      });
+    }
+    function nextSlide() {
+      currentSlide = (currentSlide + 1) % slides.length;
+      showSlide(currentSlide);
+    }
+    function prevSlide() {
+      currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+      showSlide(currentSlide);
+    }
+    if (prevBtn && nextBtn) {
+      prevBtn.addEventListener('click', prevSlide);
+      nextBtn.addEventListener('click', nextSlide);
+    }
+    // Auto-rotate every 7 seconds
+    setInterval(nextSlide, 7000);
+  </script>
+</body>
+</html> 
